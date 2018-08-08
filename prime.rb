@@ -9,7 +9,7 @@ end
 #def prime?(num)
 
 #return false if num < 2
-      (2..Math.sqrt(num)).none? {|num| num.length % num == 0}
+    #  (2..Math.sqrt(num)).none? {|num| num.length % num == 0}
 
 
 #if num <= 1 || num == 4
