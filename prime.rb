@@ -3,8 +3,8 @@
 
 def prime?(num)
 
-return false if n < 2
-      (2..Math.sqrt(n)).none? {|num| length % num == 0}
+return false if num < 2
+      (2..Math.sqrt(num)).none? {|num| length % num == 0}
 
 
 #if num <= 1 || num == 4
