@@ -4,9 +4,10 @@
 def prime?(num)
   if (2..num/2).none? {|i| num % i == 0}
     return true
-  elsif num < 2 
-    false
   end
+  
+  if num < 2 
+    return false
 end
 
 
