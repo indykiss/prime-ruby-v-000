@@ -1,8 +1,8 @@
 
 
 
-def prime?(n)
-  if (2..n/2).none?{|i| n % i == 0}
+def prime?(num)
+  if (2..num/2).none?{|i| num % i == 0}
     return true 
   elsif n < 0 
     return false
