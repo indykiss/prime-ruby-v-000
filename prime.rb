@@ -1,9 +1,14 @@
 
 
 
-def prime?(num)
+def prime?(n)
+  (2..n/2).none?{|i| n % i == 0}
+end
 
-return false if num < 2
+
+#def prime?(num)
+
+#return false if num < 2
       (2..Math.sqrt(num)).none? {|num| num.length % num == 0}
 
 
@@ -14,4 +19,4 @@ return false if num < 2
     #  else (2..num/2).none? { |i| num % i == 0}
      #   return true
  
-end 
+#end 
