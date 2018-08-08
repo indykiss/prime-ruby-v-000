@@ -8,5 +8,4 @@ num.each do |i|
     return false
   end
   
-  true
 end 
